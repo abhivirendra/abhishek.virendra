@@ -5,6 +5,7 @@ import portfolioFashion from "@/assets/portfolio-fashion.jpg";
 import workshopStudents from "@/assets/workshop-students.jpg";
 import workshopGroup from "@/assets/workshop-group.jpg";
 import workshopBanner from "@/assets/workshop-banner.jpg";
+import workshopBatch from "@/assets/workshop-batch.jpg";
 import useScrollReveal from "@/hooks/useScrollReveal";
 
 const stats = [
@@ -17,9 +18,11 @@ const galleryImages = [
   { src: portfolioFashion, alt: "Black and white fashion portrait by Abhishek Virendra — editorial photography", span: "row-span-2" },
   { src: workshopStudents, alt: "iPW students learning photography during a live workshop", span: "" },
   { src: portfolio1, alt: "Flamingo wildlife photography by Abhishek Virendra — iPW branded", span: "" },
-  { src: workshopGroup, alt: "Full batch of iPW photography workshop students — group photo", span: "col-span-2 md:col-span-2" },
+  { src: workshopBatch, alt: "iPW photography workshop batch with Abhishek Virendra — students in yellow iPW shirts", span: "col-span-2 md:col-span-2" },
   { src: portfolio2, alt: "Fashion photography shoot directed by Abhishek Virendra", span: "" },
   { src: workshopBanner, alt: "iPW Basic Photography Workshop at Bangalore — creative light bulb art", span: "" },
+  { src: workshopGroup, alt: "Full batch of iPW photography workshop students — group photo", span: "col-span-2 md:col-span-1" },
+  { src: portfolio3, alt: "Abhishek Virendra mentoring students with hands-on camera guidance", span: "" },
 ];
 
 const PortfolioSection = () => {
