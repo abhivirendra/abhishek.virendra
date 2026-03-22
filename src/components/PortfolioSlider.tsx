@@ -11,12 +11,18 @@ import sliderBeauty from "@/assets/slider-beauty.jpg";
 import sliderBwCloseup from "@/assets/slider-bw-closeup.jpg";
 import sliderStreetFashion from "@/assets/slider-street-fashion.jpg";
 import sliderBwEditorial from "@/assets/slider-bw-editorial.jpg";
+import sliderBulbsInk from "@/assets/slider-bulbs-ink.jpg";
+import sliderSuitSparks from "@/assets/slider-suit-sparks.jpg";
+import sliderBwHoops from "@/assets/slider-bw-hoops.jpg";
 
 const slides = [
   { src: sliderStreetFashion, alt: "Street fashion portrait — leather jacket against red wall", caption: "Street Fashion" },
   { src: sliderGelLight, alt: "Gel lighting portrait — blue and red creative lighting", caption: "Creative Lighting" },
+  { src: sliderSuitSparks, alt: "Fashion portrait — blue suit with sparks in industrial setting", caption: "Cinematic" },
   { src: sliderBeauty, alt: "Beauty portrait — natural light studio photography", caption: "Beauty" },
   { src: sliderBwEditorial, alt: "Black and white editorial fashion portrait", caption: "Editorial B&W" },
+  { src: sliderBulbsInk, alt: "Creative still life — three light bulbs with colorful ink in water", caption: "Creative Art" },
+  { src: sliderBwHoops, alt: "Black and white portrait — hoop earrings dramatic close-up", caption: "Dramatic B&W" },
   { src: sliderBwPortrait, alt: "Black and white self-portrait — Abhishek Virendra", caption: "Portraiture" },
   { src: sliderFashion1, alt: "Fashion portrait — editorial studio photography", caption: "Editorial" },
   { src: sliderCreativeBulb, alt: "Creative still life — light bulb with color ink in water", caption: "Creative" },
