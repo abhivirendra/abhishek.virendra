@@ -22,7 +22,10 @@ const HeroSection = () => {
           <Camera className="w-5 h-5 text-primary" />
           <span className="font-display text-lg tracking-tight">AV Photography</span>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
+          <a href="#services" className="hidden md:block text-muted-foreground text-sm hover:text-foreground transition-colors tracking-wide">Services</a>
+          <a href="#portfolio" className="hidden md:block text-muted-foreground text-sm hover:text-foreground transition-colors tracking-wide">Work</a>
+          <a href="#booking" className="hidden md:block text-muted-foreground text-sm hover:text-foreground transition-colors tracking-wide">Contact</a>
           <a href="tel:+919606766511" className="hidden md:flex items-center gap-2 text-muted-foreground text-sm hover:text-foreground transition-colors">
             <Phone className="w-4 h-4" />
             +91 96067 66511
