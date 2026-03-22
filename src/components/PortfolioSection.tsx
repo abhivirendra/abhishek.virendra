@@ -1,12 +1,24 @@
 import portfolio1 from "@/assets/portfolio-1.jpg";
 import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
+import workshopStudents from "@/assets/workshop-students.jpg";
+import workshopGroup from "@/assets/workshop-group.jpg";
+import workshopBanner from "@/assets/workshop-banner.jpg";
 import useScrollReveal from "@/hooks/useScrollReveal";
 
 const stats = [
   { number: "9+", label: "Years Mentoring" },
   { number: "3,000+", label: "Students Mentored" },
   { number: "200+", label: "Live Workshops" },
+];
+
+const galleryImages = [
+  { src: portfolio1, alt: "Flamingo wildlife photography by Abhishek Virendra — iPW branded", span: "row-span-2" },
+  { src: workshopStudents, alt: "iPW students learning photography during a live workshop", span: "" },
+  { src: portfolio2, alt: "Fashion photography shoot directed by Abhishek Virendra", span: "" },
+  { src: workshopGroup, alt: "Full batch of iPW photography workshop students — group photo", span: "col-span-2 md:col-span-2" },
+  { src: portfolio3, alt: "Abhishek Virendra mentoring students with hands-on camera guidance", span: "" },
+  { src: workshopBanner, alt: "iPW Basic Photography Workshop at Bangalore — creative light bulb art", span: "" },
 ];
 
 const PortfolioSection = () => {
@@ -17,18 +29,19 @@ const PortfolioSection = () => {
     <section className="py-24 md:py-32 px-6 md:px-12 bg-card">
       <div ref={ref1} className="max-w-6xl mx-auto mb-16">
         <p className="text-primary text-sm font-medium tracking-[0.2em] uppercase mb-6">
-          The Work
+          The Work & Workshops
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-          <div className="row-span-2">
-            <img src={portfolio1} alt="Landscape photography by Abhishek Virendra" className="w-full h-full object-cover" />
-          </div>
-          <div className="col-span-1">
-            <img src={portfolio2} alt="Portrait photography" className="w-full h-full object-cover" />
-          </div>
-          <div className="col-span-1">
-            <img src={portfolio3} alt="Street photography" className="w-full h-full object-cover" />
-          </div>
+          {galleryImages.map((img) => (
+            <div key={img.alt} className={img.span}>
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </div>
 
