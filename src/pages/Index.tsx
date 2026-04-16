@@ -39,8 +39,8 @@ const Index = () => {
             <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
-          <span className="absolute right-16 whitespace-nowrap bg-card text-foreground text-xs font-medium px-3 py-1.5 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none border border-border">
-            Workshop for Employees
+          <span className="absolute right-16 whitespace-nowrap bg-primary text-primary-foreground text-xs font-semibold px-3 py-1.5 rounded shadow-lg pointer-events-none animate-fade-up">
+            Photography Workshop for Employees
           </span>
         </a>
 
@@ -58,8 +58,8 @@ const Index = () => {
             <line x1="9" y1="9" x2="9.01" y2="9" />
             <line x1="15" y1="9" x2="15.01" y2="9" />
           </svg>
-          <span className="absolute right-16 whitespace-nowrap bg-card text-foreground text-xs font-medium px-3 py-1.5 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none border border-border">
-            Workshop for Kids
+          <span className="absolute right-16 whitespace-nowrap bg-accent text-accent-foreground text-xs font-semibold px-3 py-1.5 rounded shadow-lg pointer-events-none animate-fade-up">
+            Photography Workshop for Kids
           </span>
         </a>
 
