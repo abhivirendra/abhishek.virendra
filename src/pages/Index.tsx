@@ -20,6 +20,7 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <HeroSection />
+      <BookMyShowDangler />
       <PhilosophySection />
       <PortfolioSlider />
       <div id="services"><ServicesSection /></div>
