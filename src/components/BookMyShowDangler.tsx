@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const BookMyShowDangler = () => {
   const [open, setOpen] = useState(false);
-  const eventUrl = "https://in.bookmyshow.com/";
+  const eventUrl = "https://in.bookmyshow.com/events/basic-photography-webinar-a-layman-approach/ET00308511";
 
   if (!open === false && open) {
     // placeholder
@@ -42,7 +42,7 @@ const BookMyShowDangler = () => {
             </div>
             <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground mb-2.5">
               <MapPin className="w-3 h-3 text-primary" />
-              <span>Hyatt, Hyderabad</span>
+              <span>Hyatt, Bangalore</span>
             </div>
             <div className="bg-primary/10 text-primary text-[10px] font-semibold tracking-wide uppercase text-center py-1.5 rounded-sm">
               Book Tickets →
