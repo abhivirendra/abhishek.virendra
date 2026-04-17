@@ -84,12 +84,17 @@ export default {
           from: { opacity: "0" },
           to: { opacity: "1" },
         },
+        "swing": {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-up": "fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
         "fade-in": "fade-in 1s ease-out forwards",
+        "swing": "swing 4s ease-in-out infinite",
       },
     },
   },
