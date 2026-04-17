@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import HeroSection from "@/components/HeroSection";
+import BookMyShowDangler from "@/components/BookMyShowDangler";
 import PhilosophySection from "@/components/PhilosophySection";
 import PortfolioSlider from "@/components/PortfolioSlider";
 import ServicesSection from "@/components/ServicesSection";
